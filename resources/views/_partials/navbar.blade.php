@@ -12,7 +12,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">Beranda</a>
+                <a class="active" href="#">Beranda</a>
             </li>
             <li>
                 <a href="#">Layanan</a>

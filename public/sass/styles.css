@@ -101,8 +101,12 @@ header .navbar ul li a {
     font-size: 4vw;
   }
 }
+header .navbar ul li a.active {
+  color: #1b6a19;
+  font-weight: 600;
+}
 header .navbar ul li a:hover {
-  color: #00704a;
+  color: #1b6a19;
   transition: all 0.3s ease-in-out;
 }
 header .navbar ul li ul.sub-menu {

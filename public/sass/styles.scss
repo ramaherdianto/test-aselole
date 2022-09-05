@@ -134,8 +134,13 @@ header {
                         font-size: 4vw;
                     }
 
+                    &.active {
+                        color: $primary-color;
+                        font-weight: 600;
+                    }
+
                     &:hover {
-                        color: #00704a;
+                        color: $primary-color;
                         transition: all 0.3s ease-in-out;
                     }
                 }
