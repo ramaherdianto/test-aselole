@@ -107,7 +107,6 @@ header .navbar ul li a:hover {
 }
 header .navbar ul li ul.sub-menu {
   position: absolute;
-  display: block;
   background-color: #fff;
   color: #676767;
   margin-top: 0;
