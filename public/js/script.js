@@ -15,3 +15,13 @@ $(document).ready(function () {
         }
     );
 });
+$(document).ready(function () {
+    $(".navbar ul.slide li").click(
+        function () {
+            $("ul.sub-menu", this).fadeIn(300);
+        },
+        function () {
+            $("ul.sub-menu", this).fadeOut(300);
+        }
+    );
+});

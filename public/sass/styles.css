@@ -8,9 +8,8 @@
 header .navbar {
   display: flex;
   background-color: #fff;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 5px 0;
   width: 100%;
   position: fixed;
   top: 0;
@@ -21,9 +20,11 @@ header .navbar {
 @media screen and (max-width: 992px) {
   header .navbar {
     padding: 20px 40px;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .navbar {
+    padding: 20px 10px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -80,6 +81,10 @@ header .navbar ul li.foto-profile-mobile {
     height: 150px;
     margin-left: 0;
   }
+}
+header .navbar ul li {
+  display: flex;
+  align-items: center;
 }
 header .navbar ul li a {
   font-family: "Lato", sans-serif;
